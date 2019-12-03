@@ -1,0 +1,171 @@
+
+@font-face {
+  font-family: Acme;
+  src: url("https://fonts.googleapis.com/css");
+}
+
+@font-face {
+  font-family: Calistoga;
+  src: url("https://fonts.googleapis.com/css");
+}
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+body{
+  background-color: rgb(206, 91, 120);
+}
+
+h1{
+  font-family: 'Calistoga', "Comic Sans MS",cursive;
+  margin-left: auto;
+  margin-top:17% ;
+  margin-right: auto;
+  color: white;
+  text-transform: uppercase;
+  width: fit-content;
+  padding: 10px;
+  letter-spacing: 0.1em;
+  word-spacing: 0.1em;
+}
+
+h2,h3 {
+  font-family: 'Calistoga', "Comic Sans MS", cursive;
+  margin-left: 40%;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  word-spacing: 0.1em;
+}
+
+p{
+  font-family: 'Acme', 'Arial',sans-serif;
+  margin: 15px auto 15px auto;
+  width: 50%;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-align: justify;
+  word-spacing: 0.1em;
+}
+
+#header{
+  width: 100%;
+  max-height: 32%;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#nav_bar{
+  position: fixed;
+  top: 0;
+  margin-top: 8%;
+  margin-left: 50%;
+}
+
+a{
+  font-size: larger;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+#logo{
+  height: 225px;
+}
+
+#index_pic{
+  margin-top: 10%;
+  width: 100%;
+  height: 10%;
+}
+
+#links{
+  margin-left: 30%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  width: 50%;
+}
+
+#links1{
+  margin-left: 27%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  width: 50%;
+}
+
+#links2{
+  margin-left: 40%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  width: 50%;
+}
+
+.links{
+  background-color: #62b5d0;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  font-style: oblique;
+  border-radius: 90px;
+  word-spacing: 0.1em;
+}
+/*
+#staff_pic{
+  width: 25%;
+  margin-left: 37%;
+  border-radius: 10px;
+}
+*/
+.staff_bios{
+  background-color: #62b5d0;
+  padding: 20px;
+  width: 50%;
+  margin-left: 20%;
+  border-radius: 30px;
+  text-align: center;
+}
+
+h4{
+  font-family: 'Calistoga', "Comic Sans MS",cursive;
+  margin-left: 3%;
+  margin-bottom: 0;
+  color: black;
+  font-size: 200%;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.staff_bios1{
+  background-color: #62b5d0;
+  padding: 20px;
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 30px;
+  text-align: center;
+}
+.circle{
+  margin-top: 3%;
+  width: 15%;
+  background-color: #62b5d0;
+  padding:25px;
+  text-align: center;
+  border:  2px solid white;
+}
+
+#email{
+  font-family: 'Acme', 'Arial',sans-serif;
+  margin: 15px auto 15px auto;
+  width: 50%;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  word-spacing: 0.1em;
+  color: black;
+}
